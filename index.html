@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Object detection demo</title>
+    </head>
+
+    <body>
+        <main class="container">
+            <h1> The All Seeing Eye </h1>
+            <h4> let the all seeing eye tell you what you're seeing </h4>
+            
+            <label class="custom-file-upload">
+                <input type="file" id="file-upload" accept="image/*" />
+                <!-- <img class="upload-icon" src="https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/main/upload-icon.png"> -->
+                <img class="upload-icon" src="upload-icon.png">
+                 Upload Image
+            </label>
+
+            <div id="image-container">
+            </div>
+            <p id="status"></p>
+
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+
+</html>
+

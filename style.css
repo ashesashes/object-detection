@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    width: max(50vw, 400px);
+    position: relative;
+}
+
+.custom-file-upload{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#file-upload{
+    display: none;
+}
+
+.upload-icon{
+    width: 40px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 400px;
+    height: auto;
+}
+
+#image-container>img {
+    width: 100%;
+}
+
+.bounding-box{
+    box-sizing: border-box; 
+    border: 2px solid;
+    position: absolute;
+}
+
+.bounding-box-label {
+   position: absolute;
+  color: white;
+  font-size: 12px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 2px;
+  top: 0;
+  left: 0;
+}
